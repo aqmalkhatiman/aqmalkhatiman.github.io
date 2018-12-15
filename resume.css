@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.left{
+  width: 34%;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  background-color: DarkTurquoise;
+}
+
+.right{
+  width: 64%;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: powderblue;
+}
+
+.left img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: inherit;
+}
+
+.right h1{
+  text-align: center;
+}
+
+.title{
+  width: 60%;
+  margin-left: 20px;
+}
